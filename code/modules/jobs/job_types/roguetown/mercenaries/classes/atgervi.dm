@@ -88,7 +88,7 @@
 	H.adjust_skillrank(/datum/skill/magic/holy, 3, TRUE)
 	H.dna.species.soundpack_m = new /datum/voicepack/male/warrior()
 
-	head = /obj/item/clothing/head/roguetown/helmet/leather/saiga/atgervi
+	head = /obj/item/clothing/head/roguetown/helmet/leather/shaman_hood
 	gloves = /obj/item/clothing/gloves/roguetown/plate/atgervi
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/heavy/atgervi
 	shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt

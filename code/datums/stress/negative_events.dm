@@ -370,3 +370,13 @@
 	stressadd = 10
 	desc = span_boldred("Perhaps I shouldn't have done that...")
 	timer = 12 MINUTES
+
+/datum/stressevent/naledimasklost
+	stressadd = 8
+	desc = span_boldred("The mask! Anyone here could be a djinn. I'm exposed.")
+	timer = 999 MINUTES
+
+/datum/stressevent/shamanhoodlost
+	stressadd = 8
+	desc = span_boldred("The hood! My faith wavers without it. I feel ashamed.")
+	timer = 999 MINUTES

@@ -509,6 +509,25 @@
 
 		to_chat(H, span_boldnotice("I have been welcomed back to the Church. I am now able to gain devotion again."))
 
+/datum/status_effect/debuff/lost_naledi_mask
+	id = "naledimask"
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/naledimask
+	effectedstats = list(STATKEY_WIL = -3, STATKEY_LCK = -3)
+
+/atom/movable/screen/alert/status_effect/debuff/naledimask
+	name = "Lost Mask"
+	desc = "Djinns and daemons may claim me at any moment without the mask. It is not safe."
+	icon_state = "muscles"
+
+/datum/status_effect/debuff/lost_shaman_hood
+	id = "naledimask"
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/shamanhood
+	effectedstats = list(STATKEY_WIL = -3, STATKEY_LCK = -3)
+
+/atom/movable/screen/alert/status_effect/debuff/shamanhood
+	name = "Lost Hood"
+	desc = "The sacred hood is lost. I feel frail and sapped without it."
+	
 /atom/movable/screen/alert/status_effect/debuff/apostasy
 	name = "Apostasy!"
 	desc = "Shame upon the member of clergy!"
